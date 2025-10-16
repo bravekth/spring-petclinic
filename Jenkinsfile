@@ -3,7 +3,7 @@ pipeline {
 
   stages {
     // GitHub Clone
-    stage('Git Clone) {
+    stage('Git Clone') {
       steps {
         git url: 'https://github.com/bravekth/spring-petclinic.git/', branch: 'main'
       }
